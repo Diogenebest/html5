@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+</head>
+<body>
+    <img src="../insertion_image/assets/images/sacred.png" width="1000" height="300" alt="formulaire"/>
+    <h1>Formulaire d'inscription</h1>
+    <ul>
+        <li><a href="../../index.html">Accueil</a></li>
+        <li><a href="../contact/contact.html">Contacts</a></li>
+        <li><a href="../boutique.html">Prestations</a></li>
+    </ul>
+    <form> 
+        <fieldset>
+            <legend>Inscription</legend>
+            <div>
+                <label for="">Nom et Prénoms</label>
+                <input type="text" placeholder="nom et prénom"/>
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input type="email"/>
+            </div>
+            <div>
+                <label for=""> Mot de passe</label>
+                <input type="password" name="mot de passe"/>
+            </div>
+        
+        <div>
+            <label for="">Sexe:</label>
+            
+            <label for=""> Masculin</label>
+            <input type="radio" name="sexe"/>
+            <label for="">Féminin</label>
+            <input type="radio"name="sexe"/>
+            <div>
+                <div>
+                    <label>Nationalité:</label><select name="Nationalité"  >
+                        <option>Benin</option>
+                        <option>Ghana</option>
+                        <option>Niger</option>
+                        <option>Cote d'Ivoire</option>
+                        <option>Nigeria</option>
+                    </select>
+
+                </div>
+                
+            </div>
+        </div>
+        <div>
+<label>Biographie</label>
+</div>
+<textarea cols="60" rows="10"></textarea>
+<div>
+    
+
+<label for="">Surface à Nettoyer:</label>
+<label for=""> Maison</label>
+<input type="checkbox" name="maison" value="maisons"/>
+<label for=""> immeuble de bureau</label>
+<input type="checkbox" name="immeuble de bureau" value="immeuble de bureau"/>
+<label for=""> Piscine</label>
+<input type="checkbox" name="piscine" value="piscine"/>
+<label for=""> Salle de fêtes</label>
+<input type="checkbox" name="Salle de fêtes" value="Salle de fêtes"/>
+</div>
+<div>
+<label for="">Insérer quelques photos de l'espace à nettoyer</label>
+<input type="file" name="picture" accept="png/jpg"/>
+</div>
+<span>
+    <input type="submit" value="Envoyer"/>
+    <input type="reset" value=" Effacer"/>
+</span>
+    </fieldset>
+        </form>
+    
+</body>
+</html>
